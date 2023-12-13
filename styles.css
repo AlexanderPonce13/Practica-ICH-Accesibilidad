@@ -166,6 +166,24 @@ nav {
   transition: all 0.2s ease-in-out;
   width: 250px;
 }
+.project-container {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-container li {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.project-container li:last-child {
+  margin-right: 0;
+}
+
+/* Resto de estilos para los proyectos, flechas, etc. */
+
 
 .project:hover {
   cursor: pointer;
